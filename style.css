@@ -1,0 +1,161 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aaux Next Black';
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    background: url('./v935-aum-16.jpg'), rgba(255, 255, 255, 0.98);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: screen;
+    overflow: hidden;
+}
+
+.bg .nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+.nav h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.nav h3 span{
+    color: #f19c14;
+}
+
+.nav .links a{
+    margin-left: 40px;
+    opacity: 0.7;
+    font-weight: 500;
+    letter-spacing: .5px;
+    position: relative;
+    z-index: 10;
+}
+
+.links a.active::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f19c14;
+    width: 7px;
+    height: 7px;
+    border-radius: 1px;
+    
+}
+
+.nav .links a:hover{
+    color: #f19c14;
+}
+
+.content{
+    width: 100%;
+    height: calc(100% - 80px);
+    padding: 0 200px;
+    display: flex;
+}
+
+.left{
+    width: 70%;
+    height: 100%;
+    z-index: 5;
+}
+
+.left h1{
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    opacity: .9;
+}
+
+.left p{
+    width: 70%;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #616161;
+}
+
+.btn-box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.btn-box .btn-primary{
+    padding: 15px 35px;
+    margin-right: 30px;
+    background: #1d1d1d;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-primary:hover{
+    background: #000;
+    transform: scale(0.95) translateY(5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-box a{
+    display: flex;
+    align-items: center;
+    color: #616161;
+    cursor: pointer;
+}
+
+.btn-box a .play-btn{ 
+    width: 50px;
+    margin-right: 10px;
+}
+
+.play-btn path{
+    fill: #f19c14
+}
+
+.btn-box a svg:hover path{
+    fill: #ce8001
+}
+
+.btn-box a span:hover{
+    color: #ce8001;
+}
+
+.right{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+.right img{
+    width: 750px;
+    position: absolute;
+    right: -50px;
+    top: -70px;
+}
