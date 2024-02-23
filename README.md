@@ -36,7 +36,7 @@ Link : https://riteshcgiri.netlify.app
 
 <a href="https://awesome-github-readme-profile.netlify.app">
   <img src="https://github.com/riteshcgiri/dippixi_design/blob/main/npj.jpg?raw=true" alt="sample img" />
-  <img src="[https://github.com/riteshcgiri/dippixi_design/blob/main/vid-ezgif.com-optimize.gif](https://github.com/riteshcgiri/dippixi_design/blob/main/vid-ezgif.com-optimize.gif)" alt="sample img" />
+  <img src="[[https://github.com/riteshcgiri/dippixi_design/blob/main/vid-ezgif.com-optimize.gif](https://github.com/riteshcgiri/dippixi_design/blob/main/npj.jpg?raw=true)](https://github.com/riteshcgiri/dippixi_design/blob/main/vid-ezgif.com-optimize.gif)" alt="sample img" />
   </a>
 
 
