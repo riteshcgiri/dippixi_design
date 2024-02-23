@@ -37,8 +37,7 @@ Link : https://riteshcgiri.netlify.app
 <a href="https://awesome-github-readme-profile.netlify.app">
   <img src="https://github.com/riteshcgiri/dippixi_design/blob/main/npj.jpg?raw=true" alt="sample img" />
   <video src="https://github.com/riteshcgiri/dippixi_design/blob/main/vid.mp4" autoplay muted loop width="50vw" height="50vh"></video>
-  </a>
-  [![Watch the video](https://github.com/riteshcgiri/dippixi_design/blob/main/npj.jpg?raw=true)](https://github.com/riteshcgiri/dippixi_design/blob/main/vid.mp4)
+</a>
 
 
 # Contribute
